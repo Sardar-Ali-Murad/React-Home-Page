@@ -1,0 +1,139 @@
+.footerBigMain{
+    margin-top: 40px;
+    background-color: #576999;
+}
+
+.footerMain{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;  
+    padding: 55px 0px;
+}
+
+.footerPart1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerPart1 p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #F8F8F8;
+}
+
+.footerFlex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerFlex p{
+    color: #FFFFFF;
+}
+
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerInfo a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerInfo p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footerIcons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.footerTwitter{
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+    background-color: #0FCB02;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.footerIconBoxes{
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+    border: 1px solid #FDFDFD;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLastPart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.footerLastPartLock{
+    display: flex;
+}
+.lockMain{
+   background-color: #101010; 
+   height: 50px;
+   width: 40px;   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 7px;
+}
+
+.lockText{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+border-radius: 0px 5px 4px 0px;
+padding: 10px 4px;
+width: 120px;
+height: 30px;
+text-align: center;
+padding-bottom: 10px;
+}
+.lockText a{
+     color:  #1E1E1E;
+     font-size: 12px;
+     font-weight: 600;
+}
+
+
+@media screen and (max-width:700px) {
+    .footerLastPart{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

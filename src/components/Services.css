@@ -1,0 +1,143 @@
+.servicesMain{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 50px;
+}
+
+.servicesBigMain{
+    position: relative;
+}
+
+.serviceSvg{
+    position: absolute;
+    z-index:-10;
+    top: 250px;
+}
+
+
+@media screen and (max-width:900px) {
+    .serviceSvg{
+        width: 70%;
+    }
+}
+
+.coreServices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.coreServices a{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+     color: #222222;
+     line-height: 42px;
+}
+
+.coreServices p{
+    font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5C5C5C;
+  margin: 0px;
+}
+
+.corePart1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.coreServices button{
+    border: 1px solid #d9d9d9;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(#02cb46, #56638b);
+    cursor: pointer;
+}
+
+.coreBtn{
+    margin-top: 30px;
+}
+
+.servicesGrids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2rem;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.servicesGridBox{
+    display: flex;
+    gap: 20px;
+}
+
+.servicesGridBox img{
+    width: 40px;
+    height: 40px;
+}
+
+.servicesGridBoxText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.servicesGridBoxText a{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.servicesGridBoxText p{
+    color: #5C5C5C;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.servicesGridBox{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.15);
+    padding: 15px 10px;
+}
+
+
+
+
+.serviceImages .serviceImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:800px) {
+    .coreServices{
+        flex-direction: column;
+    }
+    .coreBtn,.corePart1{
+        display: flex;
+        width: 100%;
+
+        justify-content: flex-start;
+    }
+    .servicesGridBox{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:550px) {
+ .servicesMain{
+    width: 95%;
+ }    
+}

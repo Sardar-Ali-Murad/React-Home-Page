@@ -1,0 +1,120 @@
+.loginBigMain{
+    background: rgba(238, 244, 255, 0.6);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.loginMain{
+    display: flex;
+    gap: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.loginMain span,a{
+    cursor: pointer;
+}
+
+.loginInfoMain{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: red; */
+    width: 40%;
+}
+
+.loginStart a{
+  color: #222222;
+  font-size: 30px;
+  font-size: 500;
+  font-family: "Nunito", sans-serif;
+}
+
+.loginStart p{
+    font-size: 16px;
+    font-size: 500;
+    font-family: "Nunito", sans-serif;
+    color: #5C5C5C;
+}
+
+.loginStart p span{
+    color: #0FCB02;
+}
+
+.loginParts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginInputs{
+    border: 1px solid #94D7D3;
+    padding: 10px;
+    background: rgba(238, 244, 255, 0.6);
+    width: 100%;
+    border-radius: 8px;
+}
+
+.loginParts a{
+    font-size: 16px;
+    font-size: 500;
+    font-family: "Nunito", sans-serif;
+    color: #5C5C5C;
+}
+
+.loginCheck{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.loginCheck a{
+    font-family: "Nunito", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   color: #5C5C5C;
+}
+.loginCheck a span{
+    color: #0FCB02;    
+}
+
+.loginEnd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginEnd button{
+    border: 1px solid #d9d9d9;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(#02cb46, #56638b);
+    cursor: pointer;
+}
+
+.loginEnd a{
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+    font-size: 16;
+    color: #0FCB02;
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .loginMain{
+        flex-direction: column;
+    }
+    .loginInfoMain{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .loginImg{
+        width: 60%;
+    }
+}

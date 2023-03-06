@@ -1,0 +1,73 @@
+.faqMain{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 50px;
+}
+
+.faqConent{
+    display: flex; 
+     gap: 30px;
+     margin-top: 80px;
+}
+
+.faqParts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faqParts a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.line{
+    background: #DCDFE4;
+    height: 1px;
+    width: 100%;
+}
+
+.faqParts p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #888888;
+}
+
+.faqPart1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Img2Mian{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.Img2Mian img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .faqConent{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:700px) {
+    .faqImg1{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .faqMain{
+       width: 95%;
+    }    
+   }

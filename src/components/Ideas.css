@@ -1,0 +1,51 @@
+.ideasMain{
+    background: linear-gradient(90deg, #02CB52 0%, #576999 100%);
+    margin-bottom: 40px;
+    display: flex;
+    gap: 25px;
+    padding: 50px 60px;
+    align-items: center;
+}
+
+.ideasContent{
+    display: flex;
+    gap: 30px;
+}
+
+.ideaHead{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+
+}
+.ideasBoxes{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.singleIdea{
+    border: 1px solid #FFFFFF;
+border-radius: 5px;
+height: 35px;
+width: 110;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 3px 10px;
+cursor: pointer;
+}
+
+.singleIdea a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;;
+}
+
+@media screen and (max-width:900px){
+    .ideasContent{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,91 @@
+.vedioMain{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 50px;    
+}
+.vedioBigMain{
+    position: relative;
+}
+.vedioSvg{
+    position: absolute;
+    left: 0px;
+    z-index: -10;
+}
+
+
+@media screen and (max-width:700px) {
+    .vedioSvg{
+        width: 80%;
+    }
+}
+/* .vedioFlex{
+    display: flex;
+} */
+
+.flexSingleVedio{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.flexSingleVedioImage{
+    /* background: red; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexSingleVedio a{
+    color: #4C4949;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
+.flexSingleVedio p{
+    color: #737373;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+}
+
+.vedioText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.vedioText button{
+    border: 1px solid #d9d9d9;
+  height: 35px;
+  width: 90px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-image: linear-gradient(#02cb46, #56638b);
+  cursor: pointer;
+}
+
+.vedioBigImg{
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .flexSingleVedio{
+       flex-direction: column;
+    }    
+}
+
+@media screen and (max-width:680px) {
+    .vedioImgs{
+       width: 85%;
+    } 
+       
+}
+
+
+@media screen and (max-width:550px) {
+    .vedioMain{
+       width: 95%;
+    } 
+       
+}

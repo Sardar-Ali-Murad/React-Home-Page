@@ -1,0 +1,69 @@
+.benefitMain{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 50px;
+}
+
+.benefitPart1{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefitPart1 a{
+    font-family: "Nunito", sans-serif;
+     color: #222222;
+     font-weight: 500;
+     font-size: 30px;
+}
+
+.benefitPart1 p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #5C5C5C;
+  font-family: 'Poppins', sans-serif;
+}
+
+.benefitGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;   
+}
+
+.benefitSingleBox{
+    background: rgba(242, 244, 248, 0.6);
+    padding: 25px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.benefitSingleBox a{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.benefitSingleBox p{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:550px) {
+    .benefitMain{
+       width: 95%;
+    }    
+   }
