@@ -3,7 +3,7 @@ import {Navbar,About,Services,Benefit,Join,Team,Vedios,Login,Ideas,FAQ,Footer}  
 
 const App = () => {
   return (
-    <div>
+    <div className='main'>
       <Navbar/>
       <About/>
       <Services/>
