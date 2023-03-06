@@ -1,5 +1,7 @@
 import Img1 from "../assets/gridEarth.png"
 import Img2 from "../assets/gridMan.png"
+import Img3 from "../assets/Img13.png"
+import Img4 from "../assets/Img14.png"
 
 import Img21 from "../assets/Img21.png"
 import Img22 from "../assets/Img22.png"
@@ -11,6 +13,9 @@ import Img31 from "../assets/Img31.png"
 import Img32 from "../assets/Img32.png"
 import Img33 from "../assets/Img33.png"
 import Img34 from "../assets/Img34.png"
+
+import Img41 from "../assets/Img41.png"
+import Img42 from "../assets/Img42.png"
 
 
 import bImg1 from "../assets/benefit01.png"
@@ -41,12 +46,12 @@ let servicesPart1=[
     {
         text:"Forums",
         description:"ForAllDoctors.com Free Forums put you within earshot of an audience of intelligent, qualified professionals. Express your opinions and ask questions on just about any topic, or just keep a listening watch.",
-        img:Img1
+        img:Img3
     },
     {
         text:"Dr. - Dr. messaging",
         description:"With high encryption, instantly message with your colleagues or any other doctor, lawyer or PhD member from around the world.",
-        img:Img2
+        img:Img4
     }
 ]
 
@@ -102,12 +107,12 @@ let servicesPart4=[
     {
         text:'Dr. – Client messaging',
         description:"Communicate with patients/clients with high encryption instant messages if you choose to activate this option",
-        img:Img2
+        img:Img41
     },
     {
         text:'Flip',
         description:"Doctors can use some fun too—a lot of fun actually. Click on Flip and you enter the members lounge, where almost anything and everything is permitted",
-        img:Img2
+        img:Img42
     }
 ]
 
