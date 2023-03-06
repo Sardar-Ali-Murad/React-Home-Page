@@ -1,0 +1,16 @@
+Here is the documentation of the app till now we have the Home Page
+
+First run npm install to install all the packeges we are using 
+Second run npm run dev
+Then the app will start on the IP/Port http://127.0.0.1:5173 here you can see the app running
+
+Note: This is using the Vite Js Configuration to make the React app light weight and Optomized
+
+
+Only the src folder is important we go through all the files and folder in src
+
+1. assets where we put the images 
+2. components where we have the all component that make up the Home Page like Parts of Home Page
+6. App.jsx which is the second Parent of the entire app where we put all the pages/components
+7. main.jsx where is the ultimate Parent of the entire app 
+8. all the files with .css are for the styling purposes
